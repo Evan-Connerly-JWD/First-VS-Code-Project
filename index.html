@@ -1,28 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="style.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>First website</title>
-    <!-- As a link -->
-    <nav class="navbar bg-body-tertiary">
+    <title>Document</title>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-      </div>
-    </nav>
-
-    <!-- As a heading -->
-    <nav class="navbar bg-body-tertiary">
-      <div class="container-fluid">
-        <span class="navbar-brand mb-0 h1">Navbar</span>
+        <a class="navbar-brand" href="#">More</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Go Here</a></li>
+                <li><a class="dropdown-item" href="#">Or Here</a></li>
+                <li><hr class="dropdown-divider" />I'm not supposed to be here</li>
+                <li><a class="dropdown-item" href="#">Maybe even here?</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
       </div>
     </nav>
   </head>
   <body>
-    <img
-      src="C:\Users\sonic\Desktop\Generation\Projects\First-VS-Code-Project\Resources\images\Halo  The Master Chief Collection Screenshot 2022.11.09 - 20.16.38.56.png"
-    />
+    <h1 id="test">
+      <ol>
+        <li>
+          <p>Learning how to make a test server</p>
+        </li>
+      </ol>
+    </h1>
   </body>
 </html>
